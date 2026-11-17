@@ -10,7 +10,7 @@ CREATE TABLE products(
 	added_on DATE
 );
 
--- Creating "products" table
+-- Creating "orders" table
 
 CREATE TABLE orders(
 	order_id INT PRIMARY KEY,
