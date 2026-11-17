@@ -23,8 +23,6 @@ CREATE TABLE orders(
 	REFERENCES products(product_id) ON DELETE CASCADE
 );
 
-SELECT * FROM PRODUCTS
-SELECT * FROM ORDERS
 -- Q1. Show each order along with the product name and price.
 
 SELECT
